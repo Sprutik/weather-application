@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Weather application" />
+
+    <title>Weather App</title>
+    <link type="image/png" sizes="256x256" rel="icon" href="favicon.png" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- header-->
+    <header class="section-outer section-header">
+      <div class="section-inner">
+        <form action="#" class="section-header-search">
+          <input
+            autocomplete="off"
+            type="search"
+            placeholder="Start typing to search..."
+            class="section-header-search-input"
+            name="city"
+          />
+          <button class="section-header-search-btn">
+            <img src="./img/search-btn.svg" alt="search button" />
+          </button>
+        </form>
+        <div class="section-header-dropdown last-visit-disable"></div>
+
+        <div class="section-header-last-visited"></div>
+
+        <div class="section-header-weather-details">
+          <div class="section-header-weather-details__top">
+            <div class="section-header-weather-details__top__left">
+              <div class="current-weather-img">
+                <img src="img/weather-icons/day/02d.png" class="weather-icon" alt="Weather icon" />
+              </div>
+            </div>
+            <div class="current-weather-info">
+              <h2 class="temperature">X</h2>
+              <p class="weather-name">No data</p>
+              <p class="weather-conditions">No data</p>
+            </div>
+            <div class="section-header-weather-details__top__right">
+              <h2 class="location">No data</h2>
+              <p class="date"></p>
+            </div>
+          </div>
+          <div class="section-header-weather-details__bottom">
+            <div class="temperature-limits">
+              <p class="min">Min</p>
+              <h2 class="min-temperature">X</h2>
+            </div>
+
+            <div class="temperature-limits">
+              <p class="max">Max</p>
+              <h2 class="max-temperature">X</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /header-->
+
+    <!-- popular-cities-->
+    <section class="section-outer popular-cities">
+      <div class="section-inner">
+        <h1>Check the weather in most popular cities in the world</h1>
+
+        <div class="section-popular-cities-cards">
+          <!-- <div class="card new-york">
+            <p class="city-name">New York</p>
+          </div>
+          <div class="card london">
+            <p class="city-name">London</p>
+          </div>
+          <div class="card dubai">
+            <p class="city-name">Dubai</p>
+          </div>
+          <div class="card paris">
+            <p class="city-name">Paris</p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- /popular-cities-->
+
+    <!-- FAQ-->
+    <section class="section-outer section-faq">
+      <div class="section-inner">
+        <h1>Frequently Asked Questions</h1>
+        <div class="all-faq-items">
+          <div class="faq-item">
+            <button class="faq-item__trigger">
+              <span>Question 1</span>
+              <i class="arrow-down"></i>
+            </button>
+            <div class="faq-item__content">
+              <div class="faq-item__content__wrapper">
+                <p>
+                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                  and I will give you a complete account of the system, and expound the actual teachings of the great
+                  explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                  pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
+                  rationally encounter consequences that are extremely painful.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__trigger"><span>Question 2</span> <i class="arrow-down"></i></button>
+            <div class="faq-item__content">
+              <div class="faq-item__content__wrapper">
+                <p>
+                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                  and I will give you a complete account of the system, and expound the actual teachings of the great
+                  explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                  pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
+                  rationally encounter consequences that are extremely painful.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__trigger"><span>Question 3</span> <i class="arrow-down"></i></button>
+            <div class="faq-item__content">
+              <div class="faq-item__content__wrapper">
+                <p>
+                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                  and I will give you a complete account of the system, and expound the actual teachings of the great
+                  explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                  pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
+                  rationally encounter consequences that are extremely painful.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__trigger"><span>Question 4</span> <i class="arrow-down"></i></button>
+            <div class="faq-item__content">
+              <div class="faq-item__content__wrapper">
+                <p>
+                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                  and I will give you a complete account of the system, and expound the actual teachings of the great
+                  explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                  pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
+                  rationally encounter consequences that are extremely painful.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /FAQ-->
+
+    <!-- footer-->
+    <footer class="section-outer section-footer">
+      <div class="section-inner">
+        <p>Roman Danchevskyi - <span class="year">2001</span></p>
+      </div>
+    </footer>
+    <!-- /footer-->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
