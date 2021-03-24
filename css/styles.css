@@ -61,7 +61,7 @@ p {
 }
 @media (max-width: 575px) {
   .section-header {
-    height: 456px;
+    height: 486px;
     background-size: cover;
   }
 }
@@ -82,7 +82,7 @@ p {
 }
 @media (max-width: 575px) {
   .section-header .section-header-search {
-    width: 99%;
+    width: 300px;
   }
 }
 .section-header .section-header-search .section-header-search-input {
@@ -122,7 +122,7 @@ p {
 }
 .section-header .section-header-last-visited {
   visibility: hidden;
-  width: 80%;
+  width: 600px;
   display: flex;
   justify-content: space-between;
   background: white;
@@ -133,8 +133,14 @@ p {
 }
 @media (max-width: 767px) {
   .section-header .section-header-last-visited {
+    width: 530px;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media (max-width: 575px) {
+  .section-header .section-header-last-visited {
+    width: 300px;
   }
 }
 .section-header .section-header-last-visited span {
@@ -173,9 +179,8 @@ p {
 }
 @media (max-width: 575px) {
   .section-header .section-header-dropdown {
-    left: inherit;
-    margin-left: 0;
-    width: 99%;
+    margin-left: -150px;
+    width: 300px;
   }
 }
 .section-header .section-header-dropdown .section-header-dropdown-item {
@@ -209,7 +214,7 @@ p {
   color: #fff;
 }
 .section-header .last-visit-disable {
-  margin-top: -20px;
+  margin-top: 10px;
 }
 .section-header .section-header-weather-details {
   width: 600px;

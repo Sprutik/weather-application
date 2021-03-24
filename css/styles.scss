@@ -85,7 +85,7 @@ p {
   height: 426px;
   margin: auto 0;
   @media (max-width: $xs-max) {
-    height: 456px;
+    height: 486px;
     background-size: cover;
   }
 
@@ -105,7 +105,7 @@ p {
       width: 530px;
     }
     @media (max-width: $xs-max) {
-      width: 99%;
+      width: 300px;
     }
     .section-header-search-input {
       border: 0;
@@ -155,7 +155,7 @@ p {
 
   .section-header-last-visited {
     visibility: hidden;
-    width: 80%;
+    width: 600px;
     display: flex;
     justify-content: space-between;
     background: white;
@@ -165,8 +165,14 @@ p {
     cursor: pointer;
 
     @media (max-width: $sm-max) {
+      width: 530px;
+
       flex-wrap: wrap;
       justify-content: center;
+    }
+
+    @media (max-width: $xs-max) {
+      width: 300px;
     }
 
     span {
@@ -208,9 +214,8 @@ p {
       margin-left: -265px;
     }
     @media (max-width: $xs-max) {
-      left: inherit;
-      margin-left: 0;
-      width: 99%;
+      margin-left: -150px;
+      width: 300px;
     }
 
     .section-header-dropdown-item {
@@ -249,7 +254,7 @@ p {
     }
   }
   .last-visit-disable {
-    margin-top: -20px;
+    margin-top: 10px;
   }
 
   .section-header-weather-details {
